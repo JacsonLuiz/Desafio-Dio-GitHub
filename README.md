@@ -1,2 +1,2 @@
-# Desafio-Dio-GitHub
+# Desafio Dio Git/GitHub
 Primeiro repositorio, projeto Dio Bootcamp
