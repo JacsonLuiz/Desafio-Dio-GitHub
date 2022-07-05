@@ -1,0 +1,56 @@
+Principais conceitos sobre Kotlin
+
+Desenvolvimento Androide:
+
+*Híbrido X nativo;
+*Java, Kotlin, Dart, Javascript e C#;
+*Documentação;
+*Primeiros passos;
+*Kotlin First;
+
+*Hibrido X nativo:
+
+Híbrido roda em varios sistemas operacionais.
+Mais utilizado são uma linguagem alinhada a uma framework.
+Nativo desenvolvimento de um unico codigo pra uma unica plataforma.
+Mais utilizado Java e Kotlin.
+
+*Documentação:
+LInks Uteis
+https://developer.android.com/docs?hl=pt-br
+
+
+
+Kotlin? o que e isso?
+
+*Criada pela JetBrains em 2011, atualmente mantida pela Kotlin foundation;
+*Linguagem multiplataforma, orientada objetos e funcional;
+*Gratuito e de códigos aberto:
+*Nome em homenagem a ilha russa, Kotlin.
+
+Estrutura da linguagem
+
+*Não utiliza ponto e vírgula;
+*Não possui operador ternario tradicional;
+*Type safe e null safe;
+*Inferencia de tipo;
+*E muito mais!
+
+Aplicabilidades
+
+*Androide nativo;
+*Mobile multiplataforma (KMM);
+*Frontend Web com |Kotlin/JS;
+*Frameworks:
+   *ex: Kvison e Fritz2
+*Backend com target node.js do Kotline/JS;
+
+
+
+Kotlin: vantagens
+
+*Segura, estruturada, menos verbosa, mais otimizada,
+ grande relevância no mercado;
+*Interoperabilidade com o java;
+*Smart casts e null safety;
+*Android é Kotlin First;
