@@ -1,0 +1,58 @@
+Tipos De Dados
+
+*Int     *Boolean
+*Long    *Char
+*Float   *Byte
+*Double  *Short
+*Array   *Null!
+
+Para dar o valor Máximo de cada dado👇
+
+println(Int.MAX_VALUE)
+println(Double.MAX_VALUE)
+println(Float.MAX_VALUE)
+println(Byte.MAX_VALUE)
+
+Conversão de dados.
+
+toByte()
+toShort()
+toInt()
+toLong()
+toFloat()
+toDouble()
+toChar()
+
+
+Como declarar variáveis
+
+*Var (Valor mutável, CamelCase):
+  °Variável que pode ter ser valor alterado durante o código;
+
+*Val (valor imutável, CamelCase):
+  °Variável que terá somente o valor atribuído
+    (similar ao final em Java);
+
+*Const Val (valor imutável, SNAKE_CASE):
+  °Constante cujo valor e atribuído durante compilação.
+
+
+
+Possíveis erros
+
+1 var currentAge
+2 currentAge = 22 //ERRO!
+
+Uma variável não pode ser
+declarada sem tipo e sem 
+       atribuição!
+
+1 var currentYear = "Ano"
+2 currentYear = 2022 //ERRO!
+
+Uma variável com inferência
+de tipo só receberá valores do
+mesmo tipo que a sua primeira
+atribuição.
+
+
