@@ -56,3 +56,86 @@ mesmo tipo que a sua primeira
 atribuição.
 
 
+
+
+Nullability
+
+*Qualquer tipo pode ser nulo, porem isso deve ser
+ explicitado na declaração de variável atraves do
+ uso da interogação (?);
+
+*A inferência de tipo não atribui nullability;
+
+
+     1 var month:Int? = null
+     2 //Atribui valor null corretamente a month
+     3
+     4 var day:Int = null
+     5 /* Erro de compilação
+     6 "Null can not be a value of a non-null type Int */
+
+Operadores Aritimeticos
+
+* Os operadores podem ser 
+  chamados tanto como
+  expressão quanto como 
+  Comando. O resultado sera
+  o mesmo.
+
+* A função de soma tambem
+  funciona para concatenar
+  Strings;
+
+Operadores comparativos
+
+*Os comandos compareTo
+ retornam os valores -1
+(menor que), 0 (igual) ou
+ 1(maior). Ja os operadores
+ retornam valores booleanos;
+
+*O comando equals retorna 
+ um booleano;
+
+Operadores lógico
+
+*Quando utiliza-se o
+ comando, e recomendado
+ colocar a expressao entre
+ parenteses;
+
+Função e          Comando
+expressão     
+
+E (&&)            (expressão1) and
+                  (expressão2)
+
+Ou (||)           (expressão1) or
+                  (expressão2) 
+
+Operadores In e range
+
+*Se valor esta presente em uma lista ou uma
+ faixa (range) de valores;
+
+*Range cria um intervalo de valores que
+ inicia no primeiro parametro e acaba no
+ segundo.
+
+1 val numbers = list0f (3, 9, 0, 1, 2)
+2 print(12 in numbers)
+3 //false
+4
+5 print(12 in 0..12)
+6 //true
+
+ Funções e
+ expressões
+ 
+contém  (In)
+
+Não contém (!In)
+
+range/Faixa
+de valores
+(Int..Int)
