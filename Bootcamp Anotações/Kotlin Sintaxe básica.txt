@@ -139,3 +139,51 @@ Não contém (!In)
 range/Faixa
 de valores
 (Int..Int)
+
+
+Manipulação de Strings
+
+*Strings possuem diversos métodos associados;
+
+*Indexação, concatenação, comparação,
+ formatação.
+
+*Pode se concatenada com plus/+;
+
+*Tambem e tratada com um array de Char;
+
+
+Indexação
+
+*String como array;
+*First(), last(), String.length, String[index];
+
+1 val s = "Ola, mundo!"
+2
+2
+3 println(s[0])
+4 println(s.first())
+5 //imprime 0
+6
+7 println(s[s.length-1])
+8 println(s.last())
+9 //imprime !
+
+Concatenação
+
+*Para concatenar duas
+ stringd o plus/+ pode ser
+ utilizado;
+*PAra concatenar uma 
+ variavel a uma string, os
+ simbolos ${} devem ser inseridos:
+
+1 val name = "Ana"
+2 val s = "Ola"
+3
+4 println(s + name)
+5 //imprime OlaAna
+6 println("${s}, ${name}!")
+7 //imprime Ola, Ana!
+8 println("Bem vindo(o), $name!"
+9 //imprime Bem vinda(o), Ana!
